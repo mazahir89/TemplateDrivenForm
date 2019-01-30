@@ -1,3 +1,4 @@
+import { FormsModule } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -12,4 +13,7 @@ export class AddEmployeeComponent implements OnInit {
   ngOnInit() {
   }
 
+  addEmployee(value: FormsModule) {
+    console.log('Form Data ', value);
+  }
 }
