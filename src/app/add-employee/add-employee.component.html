@@ -1,0 +1,11 @@
+<div>
+  <label>Add Employee</label>
+  <form #empForm="ngForm">
+    <div class="form-group">
+      <label>Name </label>
+      <input type="text" ngModel name="empName" class="form-control" />
+      <span>{{ empForm.value | json }}</span>
+    </div>
+    <input type="submit" value="submit" class="btn btn-primary" />
+  </form>
+</div>
