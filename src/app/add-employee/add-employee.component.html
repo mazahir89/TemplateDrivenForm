@@ -3,7 +3,7 @@
   <p></p>
   <form #empForm="ngForm" (ngSubmit)="addEmployee(empForm.value)">
 
-
+    <span>Values: {{ empForm.value | json }}</span>
     <p></p>
     <div class="form-group">
       <label>Name </label>
