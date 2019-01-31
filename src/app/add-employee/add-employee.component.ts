@@ -1,3 +1,4 @@
+import { Employee } from './../employee';
 import { FormsModule } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
 
@@ -7,13 +8,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./add-employee.component.css']
 })
 export class AddEmployeeComponent implements OnInit {
-
-  constructor() { }
+  employee: Employee;
+  constructor() {
+    this.employee = new Employee();
+  }
 
   ngOnInit() {
   }
 
   addEmployee(value: FormsModule) {
     console.log('Form Data ', value);
+    console.log('Employee ', this.employee);
   }
 }
