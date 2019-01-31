@@ -1,6 +1,7 @@
 {
   "name": "template-driven-form",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Employee App, App lets to add Employees. App is a template driven form app which is programmed using Angular",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -25,6 +26,9 @@
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
   },
+  "keywords": [],
+  "author": "Mazahir Hashinmli",
+  "license": "MIT",
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.11.0",
     "@angular/cli": "~7.1.4",
