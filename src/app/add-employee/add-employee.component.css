@@ -1,0 +1,11 @@
+.ng-valid {
+  border-radius: 8px;
+  border-left-color: #4CAF50;
+  border-left-width: 8px;
+}
+
+.ng-invalid {
+  border-radius: 8px;
+  border-left-color: red;
+  border-left-width: 8px;
+}

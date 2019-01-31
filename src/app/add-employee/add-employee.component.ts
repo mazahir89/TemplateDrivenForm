@@ -11,13 +11,13 @@ export class AddEmployeeComponent implements OnInit {
   employee: Employee;
   constructor() {
     this.employee = new Employee();
+
   }
 
   ngOnInit() {
   }
 
   addEmployee(value: FormsModule) {
-    console.log('Form Data ', value);
     console.log('Employee ', this.employee);
   }
 }

@@ -1,8 +1,10 @@
 input[type=text] {
+  border: 1px solid grey;
   width: 25%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border-radius: 25px;
 }
 
 .button,
